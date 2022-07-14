@@ -1,4 +1,4 @@
-# nftprinter-grant
+# NFTPrinter
 
 ## Build Setup
 
@@ -7,7 +7,7 @@
 git clone https://github.com/StorerOS/NFTPrinter.git
 
 # 进入项目目录
-cd nftprinter-grant
+cd NFTPrinter
 
 # 安装依赖
 yarn install
