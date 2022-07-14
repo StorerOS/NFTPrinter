@@ -1,0 +1,131 @@
+$colorPrimary: #333333;
+$colorDanger: #ff0000;
+$colorSuccess: #67C23A;
+$colorSmart: #2357FF;
+$colorActive: #EC948A;
+$colorTopSpecialPrimary: #077474;
+$colorSpecialPrimary: #2A999A;
+$colorLowSpecialPrimary: #3294A0;
+
+$colorTextPrimary: #333333;
+$colorTextRegular: #606266;
+$colorTextSecondary: #666666;
+$colorTextLightSecondary: #8D8D8D;
+$colorTextLowLightSecondary: #A0A0A0;
+$colorTextLowLight: #999999;
+$colorTextLight: #f4f4f5;
+$colorTextLightPlaceholder: #D9D9D9;
+$colorTextLowLightPlaceholder: #D6EAEA;
+
+$colorPrimaryHover: #55adae;
+
+// font weight
+$fontWeightMedium: 400;
+$fontWeightPrimary: 500;
+$fontWeightLowHeavy: 600;
+$fontWeightHeavy: bold;
+
+$fontSizeExtraSmall: 12px;
+$fontSizeLowMedium: 14px;
+$fontSizeMedium: 16px;
+$fontSizeLarge: 18px;
+$fontSizeCeilLarge: 20px;
+$fontSizeCeilVeryLarge: 22px;
+$fontSizeVeryLarge: 24px;
+
+
+$borderColorSpecialPrimary: #4ABCBE;
+$borderColorBaseSpecialPrimary: rgba(42, 153, 154, 0.31);
+$borderColorLowSpecialPrimary: #9BD9D9;
+$borderColorBrightPrimary: #EC948A;
+$borderColorTopPrimary: #061A1A;
+$borderColorPrimary: #333333;
+
+$borderColorSmart: #2357FF;
+$borderColorBase: #F2F2F2;
+$borderColorHeavyBase: #D6D6D6;
+$borderColorLowBase: #D9D9D9;
+$borderColorLight: #E4E7ED;
+
+$fontLineHeightLarge: 24px;
+$fontLineHeightPrimary: 24px;
+$fontLineHeightBase: 14px;
+$fontLineHeightSecondary: 12px;
+
+
+$backgroundColorPrimary: #2A999A;
+$backgroundColorDecor: #EC948A;
+$backgroundColorBase: #FAFAFA;
+$backgroundColorLight: #f4f4f5;
+$backgroundColorlighter: #F5F5F5;
+$backgroundColorLowLighter: #F7F7F7;
+$backgroundColorDanger: #FFD5D5;
+
+$borderColorLightweight: #F2F2F2;
+
+// sidebar
+$menuText:#bfcbd9;
+$menuActiveText:#0079fe;
+$subMenuActiveText:#f4f4f5; //https://github.com/ElemeFE/element/issues/12951
+
+$menuBg:#304156;
+$menuHover:#263445;
+
+$subMenuBg:#1f2d3d;
+$subMenuHover:#001528;
+
+$sideBarWidth: 210px;
+
+$headerHeight: 50px;
+$footerHeight: 50px;
+
+// border radius
+$borderRadiusSpecialSmall: 2px;
+$borderRadiusSmall: 4px;
+$borderRadiusLowBase: 5px;
+$borderRadiusBase: 6px;
+$borderRadiusLowMedium: 8px;
+$borderRadiusMedium: 10px;
+$borderRadiusLarge: 12px;
+$borderRadiusTopLarge: 14px;
+
+$semiboldFontFamilyType: Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+$regularFontFamilyType: Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+$mediumFontFamilyType: Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+$normalFontFamilyType: Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+$specialFontFamilyType: WenYiHei, Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+
+$layoutContentWidth: 1340px;
+$minLayoutContentWidth: 750px;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  themeColor: $colorPrimary;
+  colorTextRegular: $colorTextRegular;
+  colorTextPrimary: $colorTextPrimary;
+  colorTextSecondary: $colorTextSecondary;
+  colorPrimaryHover: $colorPrimaryHover;
+  colorDanger: $colorDanger;
+  colorSuccess: $colorSuccess;
+  fontSizeExtraSmall: $fontSizeExtraSmall;
+  fontSizeLarge: $fontSizeLarge;
+  fontSizeMedium: $fontSizeMedium;
+  borderColorBase: $borderColorBase;
+  borderColorLight: $borderColorLight;
+  fontLineHeightPrimary: $fontLineHeightPrimary;
+  fontLineHeightSecondary: $fontLineHeightSecondary;
+  backgroundColorLight: $backgroundColorLight;
+  backgroundColorlighter: $backgroundColorlighter;
+  borderColorLightweight: $borderColorLightweight;
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+  headerHeight: $headerHeight;
+  footerHeight: $footerHeight;
+}

@@ -1,0 +1,31 @@
+
+
+$--color-primary: $colorSpecialPrimary;
+
+$--border-color-base: #E4E4E4;
+
+$--color-text-regular: #666666;
+
+
+$--button-default-font-color: #333333;
+$--button-default-border-color: $borderColorLowSpecialPrimary;
+$--button-default-font-color: $colorSpecialPrimary;
+$--button-primary-font-color: #fff;
+$--button-border-radius: $borderRadiusTopLarge;
+
+$--input-border-radius: $borderRadiusLowBase;
+
+$--table-row-hover-background-color: rgba(42, 153, 154, .05);
+
+$--select-option-hover-background: #FAFAFA;
+
+$--link-default-font-color: #333333;
+
+$--dropdown-menuItem-hover-fill: #FAFAFA;
+// card
+$--card-border-radius: $borderRadiusLowBase;
+
+
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";

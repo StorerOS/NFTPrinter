@@ -1,0 +1,139 @@
+
+@mixin semibold-font-family {
+  font-family: $semiboldFontFamilyType;
+  font-weight: $fontWeightLowHeavy;
+}
+@mixin regular-font-family {
+  font-family: $regularFontFamilyType;
+  font-weight: $fontWeightMedium;
+}
+@mixin medium-font-family {
+  font-family: $mediumFontFamilyType;
+  font-weight: $fontWeightPrimary;
+}
+@mixin normal-font-family {
+  font-family: $normalFontFamilyType;
+  font-weight: $fontWeightMedium;
+}
+@mixin special-font-family {
+  font-family: $specialFontFamilyType;
+  font-weight: $fontWeightMedium;
+}
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin scrollBar {
+  &::-webkit-scrollbar-track-piece {
+    background: #d3dce6;
+  }
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #99a9bf;
+    border-radius: 20px;
+  }
+}
+
+@mixin relative {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+@mixin compatible-hidden-number-arrow {
+  -moz-appearance: textfield;
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    margin: 0;
+    -webkit-appearance: none !important;
+  }
+}
+
+@mixin base-box-shadow {
+  box-shadow: 0px 6px 12px 1px rgba(0, 0, 0, 0.16);
+}
+
+@mixin text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin font-size-extra-small {
+  font-size: $fontSizeExtraSmall;
+  line-height: 18px;
+}
+
+@mixin font-size-low-medium {
+  font-size: $fontSizeLowMedium;
+  line-height: 20px;
+}
+
+@mixin font-size-medium {
+  font-size: $fontSizeMedium;
+  line-height: 22px;
+}
+
+@mixin font-size-large {
+  font-size: $fontSizeLarge;
+  line-height: 24px;
+}
+
+@mixin font-size-ceil-large {
+  font-size: $fontSizeCeilLarge;
+  line-height: 26px;
+}
+
+@mixin font-size-ceil-very-large {
+  font-size: $fontSizeCeilVeryLarge;
+  line-height: 28px;
+}
+
+@mixin font-size-very-large {
+  font-size: $fontSizeVeryLarge;
+  line-height: 30px;
+}
+
+@mixin font-size-extra-small-rem {
+  font-size: rem($fontSizeExtraSmall);
+  line-height: rem(18px);
+}
+
+@mixin font-size-low-medium-rem {
+  font-size: rem($fontSizeLowMedium);
+  line-height: rem(20px);
+}
+
+@mixin font-size-medium-rem {
+  font-size: rem($fontSizeMedium);
+  line-height: rem(22px);
+}
+
+@mixin font-size-large-rem {
+  font-size: rem($fontSizeLarge);
+  line-height: rem(24px);
+}
+
+@mixin font-size-ceil-large-rem {
+  font-size: rem($fontSizeCeilLarge);
+  line-height: rem(26px);
+}
+
+@mixin font-size-ceil-very-large-rem {
+  font-size: rem($fontSizeCeilVeryLarge);
+  line-height: rem(28px);
+}
+
+@mixin font-size-very-large-rem {
+  font-size: rem($fontSizeVeryLarge);
+  line-height: rem(30px);
+}

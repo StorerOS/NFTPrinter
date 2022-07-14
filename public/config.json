@@ -1,0 +1,5 @@
+{
+  "APP_VAULT_URL": "https://vault-testnet.chromia.com",
+  "APP_BLOCKCHAIN_RID": "3AF7BE71D03B213707B0179B7A373263AEA9B843B873A3FFDF6A7A4812AB467B",
+  "APP_NODE_ADDRESS": "https://postchain.storeros.com/"
+}

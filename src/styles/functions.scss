@@ -1,0 +1,4 @@
+$defaultSize: 37.5px !default;
+@function rem($px){
+    @return $px / $defaultSize * 1rem;
+}
